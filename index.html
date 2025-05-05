@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Find the Perfect TV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div>
+    <h1>Find the Perfect TV</h1>
+    <form id="tv-form">
+      <div>
+        <p><strong>1. Where will the TV go?</strong></p>
+        <label><input type="radio" name="room" value="living"> Living Room</label><br>
+        <label><input type="radio" name="room" value="bedroom"> Bedroom</label><br>
+        <label><input type="radio" name="room" value="outdoor"> Outdoor</label>
+      </div>
+      <div>
+        <p><strong>2. What size are you looking for?</strong></p>
+        <label><input type="radio" name="size" value="small"> Under 43"</label><br>
+        <label><input type="radio" name="size" value="medium"> 43"–55"</label><br>
+        <label><input type="radio" name="size" value="large"> 55"–75"</label><br>
+        <label><input type="radio" name="size" value="xl"> Over 75"</label>
+      </div>
+      <div>
+        <p><strong>3. How will you use it?</strong></p>
+        <label><input type="radio" name="use" value="movies"> Streaming / Movies</label><br>
+        <label><input type="radio" name="use" value="gaming"> Gaming</label><br>
+        <label><input type="radio" name="use" value="sports"> Sports</label>
+      </div>
+      <div>
+        <p><strong>4. What’s your budget?</strong></p>
+        <label><input type="radio" name="budget" value="low"> Under $300</label><br>
+        <label><input type="radio" name="budget" value="mid"> $300–$600</label><br>
+        <label><input type="radio" name="budget" value="high"> $600–$1000</label><br>
+        <label><input type="radio" name="budget" value="premium"> $1000+</label>
+      </div>
+      <button type="submit">Get Recommendation</button>
+    </form>
+
+    <div id="result" style="margin-top: 20px;">
+      <h2>Our Pick for You:</h2>
+      <p id="recommendation"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
