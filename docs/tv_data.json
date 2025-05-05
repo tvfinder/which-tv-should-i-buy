@@ -1,0 +1,93 @@
+[
+    {
+      "name": "Samsung Q60C 43\" QLED",
+      "size": "medium",
+      "room": "living",
+      "use": "movies",
+      "budget": "mid",
+      "description": "Vivid colors and sharp 4K for living room movie nights.",
+      "affiliateLink": "https://amzn.to/432D2Om"
+    },
+    {
+      "name": "LG C3 55\" OLED",
+      "size": "large",
+      "room": "living",
+      "use": "gaming",
+      "budget": "high",
+      "description": "OLED clarity with super-fast response times for next-gen gaming.",
+      "affiliateLink": "https://www.amazon.com/dp/B0BVV9D1J7"
+    },
+    {
+      "name": "TCL 50\" 5-Series Roku",
+      "size": "medium",
+      "room": "bedroom",
+      "use": "movies",
+      "budget": "low",
+      "description": "Great value 4K TV with built-in Roku for easy streaming.",
+      "affiliateLink": "https://amzn.to/4k3Pwfm"
+    },
+    {
+      "name": "Sony X90K 65\"",
+      "size": "large",
+      "room": "bedroom",
+      "use": "sports",
+      "budget": "high",
+      "description": "Smooth motion handling, perfect for sports fans.",
+      "affiliateLink": "https://amzn.to/4d6DK1F"
+    },
+    {
+      "name": "Vizio 70\" M-Series",
+      "size": "xl",
+      "room": "living",
+      "use": "sports",
+      "budget": "mid",
+      "description": "Big screen excitement for the game with great picture quality.",
+      "affiliateLink": "https://www.amazon.com/dp/B08P2P7K1W"
+    },
+    {
+      "name": "Hisense 32\" Class A4",
+      "size": "small",
+      "room": "bedroom",
+      "use": "gaming",
+      "budget": "low",
+      "description": "Affordable 1080p gaming TV with solid performance.",
+      "affiliateLink": "https://www.amazon.com/dp/B09R9H6Y7T"
+    },
+    {
+      "name": "Samsung Terrace 55\"",
+      "size": "large",
+      "room": "outdoor",
+      "use": "sports",
+      "budget": "premium",
+      "description": "Weather-resistant 4K QLED, built for outdoor viewing.",
+      "affiliateLink": "https://www.amazon.com/dp/B087CGX61V"
+    },
+    {
+      "name": "LG 43\" UHD",
+      "size": "medium",
+      "room": "outdoor",
+      "use": "movies",
+      "budget": "mid",
+      "description": "Durable display for covered patios and decks.",
+      "affiliateLink": "https://www.amazon.com/dp/B0845NBLVR"
+    },
+    {
+      "name": "Sony A80L 65\" OLED",
+      "size": "large",
+      "room": "living",
+      "use": "movies",
+      "budget": "premium",
+      "description": "Cinematic OLED experience with deep blacks and vivid colors.",
+      "affiliateLink": "https://www.amazon.com/dp/B0C4F6TQ9H"
+    },
+    {
+      "name": "TCL 55\" Q6 Series",
+      "size": "large",
+      "room": "living",
+      "use": "sports",
+      "budget": "mid",
+      "description": "Wide color, smooth action for fast-paced sports.",
+      "affiliateLink": "https://www.amazon.com/dp/B0BWTZHH3S"
+    }
+  ]
+  
