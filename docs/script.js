@@ -1,30 +1,46 @@
-// This file contains JavaScript code that handles the logic for the TV recommendation form.
-
-document.getElementById('tv-form').addEventListener('submit', function(event) {
-    event.preventDefault();
-
+document.getElementById('tv-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+  
+    // Grab the user's answers
     const room = document.querySelector('input[name="room"]:checked');
     const size = document.querySelector('input[name="size"]:checked');
     const use = document.querySelector('input[name="use"]:checked');
     const budget = document.querySelector('input[name="budget"]:checked');
-
+  
+    // Check if all questions are answered
     if (!room || !size || !use || !budget) {
-        document.getElementById('recommendation').innerText = 'Please answer all questions.';
-        return;
+      document.getElementById('recommendation').textContent = "Please answer all the questions!";
+      return;
     }
-
-    let recommendation = '';
-
-    // Simple recommendation logic based on user input
-    if (budget.value === 'premium') {
-        recommendation = 'We recommend the latest OLED TV for your ' + room.value + '.';
-    } else if (budget.value === 'high') {
-        recommendation = 'Consider a high-end LED TV for your ' + room.value + '.';
-    } else if (budget.value === 'mid') {
-        recommendation = 'A mid-range smart TV would be great for your ' + room.value + '.';
-    } else {
-        recommendation = 'Check out some budget-friendly options for your ' + room.value + '.';
-    }
-
-    document.getElementById('recommendation').innerText = recommendation;
-});
+  
+    // Fetch the TV data from the local JSON file
+    fetch('tv_data.json')
+      .then(response => response.json())  // Parse the JSON data
+      .then(data => {
+        // Filter the TVs based on user answers
+        const filteredTVs = data.filter(tv => {
+          return tv.size === size.value && tv.room === room.value && tv.use === use.value && tv.budget === budget.value;
+        });
+  
+        // Display the filtered TVs
+        const resultDiv = document.getElementById('recommendation');
+        resultDiv.innerHTML = '';  // Clear any previous recommendations
+  
+        if (filteredTVs.length > 0) {
+          filteredTVs.forEach(tv => {
+            resultDiv.innerHTML += `
+              <p><strong>${tv.name}</strong><br>
+              ${tv.description}<br>
+              <a href="${tv.affiliateLink}" target="_blank">Buy Now</a></p>
+            `;
+          });
+        } else {
+          resultDiv.innerHTML = 'No TVs found for your preferences. Please try adjusting your answers.';
+        }
+      })
+      .catch(error => {
+        console.error("Error loading TV data: ", error);
+        document.getElementById('recommendation').textContent = "Oops, there was an error loading the recommendations.";
+      });
+  });
+  
