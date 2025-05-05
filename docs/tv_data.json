@@ -1,93 +1,1298 @@
 [
-    {
-      "name": "Samsung Q60C 43\" QLED",
-      "size": "medium",
-      "room": "living",
-      "use": "movies",
-      "budget": "mid",
-      "description": "Vivid colors and sharp 4K for living room movie nights.",
-      "affiliateLink": "https://amzn.to/432D2Om"
-    },
-    {
-      "name": "LG C3 55\" OLED",
-      "size": "large",
-      "room": "living",
-      "use": "gaming",
-      "budget": "high",
-      "description": "OLED clarity with super-fast response times for next-gen gaming.",
-      "affiliateLink": "https://www.amazon.com/dp/B0BVV9D1J7"
-    },
-    {
-      "name": "TCL 50\" 5-Series Roku",
-      "size": "medium",
-      "room": "bedroom",
-      "use": "movies",
-      "budget": "low",
-      "description": "Great value 4K TV with built-in Roku for easy streaming.",
-      "affiliateLink": "https://amzn.to/4k3Pwfm"
-    },
-    {
-      "name": "Sony X90K 65\"",
-      "size": "large",
-      "room": "bedroom",
-      "use": "sports",
-      "budget": "high",
-      "description": "Smooth motion handling, perfect for sports fans.",
-      "affiliateLink": "https://amzn.to/4d6DK1F"
-    },
-    {
-      "name": "Vizio 70\" M-Series",
-      "size": "xl",
-      "room": "living",
-      "use": "sports",
-      "budget": "mid",
-      "description": "Big screen excitement for the game with great picture quality.",
-      "affiliateLink": "https://www.amazon.com/dp/B08P2P7K1W"
-    },
-    {
-      "name": "Hisense 32\" Class A4",
-      "size": "small",
-      "room": "bedroom",
-      "use": "gaming",
-      "budget": "low",
-      "description": "Affordable 1080p gaming TV with solid performance.",
-      "affiliateLink": "https://www.amazon.com/dp/B09R9H6Y7T"
-    },
-    {
-      "name": "Samsung Terrace 55\"",
-      "size": "large",
-      "room": "outdoor",
-      "use": "sports",
-      "budget": "premium",
-      "description": "Weather-resistant 4K QLED, built for outdoor viewing.",
-      "affiliateLink": "https://www.amazon.com/dp/B087CGX61V"
-    },
-    {
-      "name": "LG 43\" UHD",
-      "size": "medium",
-      "room": "outdoor",
-      "use": "movies",
-      "budget": "mid",
-      "description": "Durable display for covered patios and decks.",
-      "affiliateLink": "https://www.amazon.com/dp/B0845NBLVR"
-    },
-    {
-      "name": "Sony A80L 65\" OLED",
-      "size": "large",
-      "room": "living",
-      "use": "movies",
-      "budget": "premium",
-      "description": "Cinematic OLED experience with deep blacks and vivid colors.",
-      "affiliateLink": "https://www.amazon.com/dp/B0C4F6TQ9H"
-    },
-    {
-      "name": "TCL 55\" Q6 Series",
-      "size": "large",
-      "room": "living",
-      "use": "sports",
-      "budget": "mid",
-      "description": "Wide color, smooth action for fast-paced sports.",
-      "affiliateLink": "https://www.amazon.com/dp/B0BWTZHH3S"
-    }
-  ]
-  
+  {
+    "name": "Samsung Q60C 43\" QLED",
+    "size": "medium",
+    "room": "living",
+    "use": "movies",
+    "budget": "mid",
+    "description": "Vivid colors and sharp 4K for living room movie nights.",
+    "affiliateLink": "https://amzn.to/432D2Om"
+  },
+  {
+    "name": "LG C3 55\" OLED",
+    "size": "large",
+    "room": "living",
+    "use": "gaming",
+    "budget": "high",
+    "description": "OLED clarity with super-fast response times for next-gen gaming.",
+    "affiliateLink": "https://www.amazon.com/dp/B0BVV9D1J7"
+  },
+  {
+    "name": "TCL 50\" 5-Series Roku",
+    "size": "medium",
+    "room": "bedroom",
+    "use": "movies",
+    "budget": "low",
+    "description": "Great value 4K TV with built-in Roku for easy streaming.",
+    "affiliateLink": "https://amzn.to/4k3Pwfm"
+  },
+  {
+    "name": "Sony X90K 65\"",
+    "size": "large",
+    "room": "bedroom",
+    "use": "sports",
+    "budget": "high",
+    "description": "Smooth motion handling, perfect for sports fans.",
+    "affiliateLink": "https://amzn.to/4d6DK1F"
+  },
+  {
+    "name": "Vizio 70\" M-Series",
+    "size": "xl",
+    "room": "living",
+    "use": "sports",
+    "budget": "mid",
+    "description": "Big screen excitement for the game with great picture quality.",
+    "affiliateLink": "https://www.amazon.com/dp/B08P2P7K1W"
+  },
+  {
+    "name": "Hisense 32\" Class A4",
+    "size": "small",
+    "room": "bedroom",
+    "use": "gaming",
+    "budget": "low",
+    "description": "Affordable 1080p gaming TV with solid performance.",
+    "affiliateLink": "https://www.amazon.com/dp/B09R9H6Y7T"
+  },
+  {
+    "name": "Samsung Terrace 55\"",
+    "size": "large",
+    "room": "outdoor",
+    "use": "sports",
+    "budget": "premium",
+    "description": "Weather-resistant 4K QLED, built for outdoor viewing.",
+    "affiliateLink": "https://www.amazon.com/dp/B087CGX61V"
+  },
+  {
+    "name": "LG 43\" UHD",
+    "size": "medium",
+    "room": "outdoor",
+    "use": "movies",
+    "budget": "mid",
+    "description": "Durable display for covered patios and decks.",
+    "affiliateLink": "https://www.amazon.com/dp/B0845NBLVR"
+  },
+  {
+    "name": "Sony A80L 65\" OLED",
+    "size": "large",
+    "room": "living",
+    "use": "movies",
+    "budget": "premium",
+    "description": "Cinematic OLED experience with deep blacks and vivid colors.",
+    "affiliateLink": "https://www.amazon.com/dp/B0C4F6TQ9H"
+  },
+  {
+    "name": "TCL 55\" Q6 Series",
+    "size": "large",
+    "room": "living",
+    "use": "sports",
+    "budget": "mid",
+    "description": "Wide color, smooth action for fast-paced sports.",
+    "affiliateLink": "https://www.amazon.com/dp/B0BWTZHH3S"
+  },
+  {
+    "name": "Generic TV Model 1",
+    "size": "small",
+    "room": "living",
+    "use": "movies",
+    "budget": "low",
+    "description": "A solid choice for living movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 2",
+    "size": "small",
+    "room": "living",
+    "use": "movies",
+    "budget": "mid",
+    "description": "A solid choice for living movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 3",
+    "size": "small",
+    "room": "living",
+    "use": "movies",
+    "budget": "high",
+    "description": "A solid choice for living movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 4",
+    "size": "small",
+    "room": "living",
+    "use": "movies",
+    "budget": "premium",
+    "description": "A solid choice for living movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 5",
+    "size": "small",
+    "room": "living",
+    "use": "gaming",
+    "budget": "low",
+    "description": "A solid choice for living gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 6",
+    "size": "small",
+    "room": "living",
+    "use": "gaming",
+    "budget": "mid",
+    "description": "A solid choice for living gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 7",
+    "size": "small",
+    "room": "living",
+    "use": "gaming",
+    "budget": "high",
+    "description": "A solid choice for living gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 8",
+    "size": "small",
+    "room": "living",
+    "use": "gaming",
+    "budget": "premium",
+    "description": "A solid choice for living gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 9",
+    "size": "small",
+    "room": "living",
+    "use": "sports",
+    "budget": "low",
+    "description": "A solid choice for living sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 10",
+    "size": "small",
+    "room": "living",
+    "use": "sports",
+    "budget": "mid",
+    "description": "A solid choice for living sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 11",
+    "size": "small",
+    "room": "living",
+    "use": "sports",
+    "budget": "high",
+    "description": "A solid choice for living sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 12",
+    "size": "small",
+    "room": "living",
+    "use": "sports",
+    "budget": "premium",
+    "description": "A solid choice for living sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 13",
+    "size": "small",
+    "room": "bedroom",
+    "use": "movies",
+    "budget": "low",
+    "description": "A solid choice for bedroom movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 14",
+    "size": "small",
+    "room": "bedroom",
+    "use": "movies",
+    "budget": "mid",
+    "description": "A solid choice for bedroom movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 15",
+    "size": "small",
+    "room": "bedroom",
+    "use": "movies",
+    "budget": "high",
+    "description": "A solid choice for bedroom movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 16",
+    "size": "small",
+    "room": "bedroom",
+    "use": "movies",
+    "budget": "premium",
+    "description": "A solid choice for bedroom movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 17",
+    "size": "small",
+    "room": "bedroom",
+    "use": "gaming",
+    "budget": "mid",
+    "description": "A solid choice for bedroom gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 18",
+    "size": "small",
+    "room": "bedroom",
+    "use": "gaming",
+    "budget": "high",
+    "description": "A solid choice for bedroom gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 19",
+    "size": "small",
+    "room": "bedroom",
+    "use": "gaming",
+    "budget": "premium",
+    "description": "A solid choice for bedroom gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 20",
+    "size": "small",
+    "room": "bedroom",
+    "use": "sports",
+    "budget": "low",
+    "description": "A solid choice for bedroom sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 21",
+    "size": "small",
+    "room": "bedroom",
+    "use": "sports",
+    "budget": "mid",
+    "description": "A solid choice for bedroom sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 22",
+    "size": "small",
+    "room": "bedroom",
+    "use": "sports",
+    "budget": "high",
+    "description": "A solid choice for bedroom sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 23",
+    "size": "small",
+    "room": "bedroom",
+    "use": "sports",
+    "budget": "premium",
+    "description": "A solid choice for bedroom sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 24",
+    "size": "small",
+    "room": "outdoor",
+    "use": "movies",
+    "budget": "low",
+    "description": "A solid choice for outdoor movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 25",
+    "size": "small",
+    "room": "outdoor",
+    "use": "movies",
+    "budget": "mid",
+    "description": "A solid choice for outdoor movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 26",
+    "size": "small",
+    "room": "outdoor",
+    "use": "movies",
+    "budget": "high",
+    "description": "A solid choice for outdoor movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 27",
+    "size": "small",
+    "room": "outdoor",
+    "use": "movies",
+    "budget": "premium",
+    "description": "A solid choice for outdoor movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 28",
+    "size": "small",
+    "room": "outdoor",
+    "use": "gaming",
+    "budget": "low",
+    "description": "A solid choice for outdoor gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 29",
+    "size": "small",
+    "room": "outdoor",
+    "use": "gaming",
+    "budget": "mid",
+    "description": "A solid choice for outdoor gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 30",
+    "size": "small",
+    "room": "outdoor",
+    "use": "gaming",
+    "budget": "high",
+    "description": "A solid choice for outdoor gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 31",
+    "size": "small",
+    "room": "outdoor",
+    "use": "gaming",
+    "budget": "premium",
+    "description": "A solid choice for outdoor gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 32",
+    "size": "small",
+    "room": "outdoor",
+    "use": "sports",
+    "budget": "low",
+    "description": "A solid choice for outdoor sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 33",
+    "size": "small",
+    "room": "outdoor",
+    "use": "sports",
+    "budget": "mid",
+    "description": "A solid choice for outdoor sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 34",
+    "size": "small",
+    "room": "outdoor",
+    "use": "sports",
+    "budget": "high",
+    "description": "A solid choice for outdoor sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 35",
+    "size": "small",
+    "room": "outdoor",
+    "use": "sports",
+    "budget": "premium",
+    "description": "A solid choice for outdoor sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 36",
+    "size": "medium",
+    "room": "living",
+    "use": "movies",
+    "budget": "low",
+    "description": "A solid choice for living movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 37",
+    "size": "medium",
+    "room": "living",
+    "use": "movies",
+    "budget": "high",
+    "description": "A solid choice for living movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 38",
+    "size": "medium",
+    "room": "living",
+    "use": "movies",
+    "budget": "premium",
+    "description": "A solid choice for living movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 39",
+    "size": "medium",
+    "room": "living",
+    "use": "gaming",
+    "budget": "low",
+    "description": "A solid choice for living gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 40",
+    "size": "medium",
+    "room": "living",
+    "use": "gaming",
+    "budget": "mid",
+    "description": "A solid choice for living gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 41",
+    "size": "medium",
+    "room": "living",
+    "use": "gaming",
+    "budget": "high",
+    "description": "A solid choice for living gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 42",
+    "size": "medium",
+    "room": "living",
+    "use": "gaming",
+    "budget": "premium",
+    "description": "A solid choice for living gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 43",
+    "size": "medium",
+    "room": "living",
+    "use": "sports",
+    "budget": "low",
+    "description": "A solid choice for living sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 44",
+    "size": "medium",
+    "room": "living",
+    "use": "sports",
+    "budget": "mid",
+    "description": "A solid choice for living sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 45",
+    "size": "medium",
+    "room": "living",
+    "use": "sports",
+    "budget": "high",
+    "description": "A solid choice for living sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 46",
+    "size": "medium",
+    "room": "living",
+    "use": "sports",
+    "budget": "premium",
+    "description": "A solid choice for living sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 47",
+    "size": "medium",
+    "room": "bedroom",
+    "use": "movies",
+    "budget": "mid",
+    "description": "A solid choice for bedroom movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 48",
+    "size": "medium",
+    "room": "bedroom",
+    "use": "movies",
+    "budget": "high",
+    "description": "A solid choice for bedroom movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 49",
+    "size": "medium",
+    "room": "bedroom",
+    "use": "movies",
+    "budget": "premium",
+    "description": "A solid choice for bedroom movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 50",
+    "size": "medium",
+    "room": "bedroom",
+    "use": "gaming",
+    "budget": "low",
+    "description": "A solid choice for bedroom gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 51",
+    "size": "medium",
+    "room": "bedroom",
+    "use": "gaming",
+    "budget": "mid",
+    "description": "A solid choice for bedroom gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 52",
+    "size": "medium",
+    "room": "bedroom",
+    "use": "gaming",
+    "budget": "high",
+    "description": "A solid choice for bedroom gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 53",
+    "size": "medium",
+    "room": "bedroom",
+    "use": "gaming",
+    "budget": "premium",
+    "description": "A solid choice for bedroom gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 54",
+    "size": "medium",
+    "room": "bedroom",
+    "use": "sports",
+    "budget": "low",
+    "description": "A solid choice for bedroom sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 55",
+    "size": "medium",
+    "room": "bedroom",
+    "use": "sports",
+    "budget": "mid",
+    "description": "A solid choice for bedroom sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 56",
+    "size": "medium",
+    "room": "bedroom",
+    "use": "sports",
+    "budget": "high",
+    "description": "A solid choice for bedroom sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 57",
+    "size": "medium",
+    "room": "bedroom",
+    "use": "sports",
+    "budget": "premium",
+    "description": "A solid choice for bedroom sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 58",
+    "size": "medium",
+    "room": "outdoor",
+    "use": "movies",
+    "budget": "low",
+    "description": "A solid choice for outdoor movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 59",
+    "size": "medium",
+    "room": "outdoor",
+    "use": "movies",
+    "budget": "high",
+    "description": "A solid choice for outdoor movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 60",
+    "size": "medium",
+    "room": "outdoor",
+    "use": "movies",
+    "budget": "premium",
+    "description": "A solid choice for outdoor movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 61",
+    "size": "medium",
+    "room": "outdoor",
+    "use": "gaming",
+    "budget": "low",
+    "description": "A solid choice for outdoor gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 62",
+    "size": "medium",
+    "room": "outdoor",
+    "use": "gaming",
+    "budget": "mid",
+    "description": "A solid choice for outdoor gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 63",
+    "size": "medium",
+    "room": "outdoor",
+    "use": "gaming",
+    "budget": "high",
+    "description": "A solid choice for outdoor gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 64",
+    "size": "medium",
+    "room": "outdoor",
+    "use": "gaming",
+    "budget": "premium",
+    "description": "A solid choice for outdoor gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 65",
+    "size": "medium",
+    "room": "outdoor",
+    "use": "sports",
+    "budget": "low",
+    "description": "A solid choice for outdoor sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 66",
+    "size": "medium",
+    "room": "outdoor",
+    "use": "sports",
+    "budget": "mid",
+    "description": "A solid choice for outdoor sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 67",
+    "size": "medium",
+    "room": "outdoor",
+    "use": "sports",
+    "budget": "high",
+    "description": "A solid choice for outdoor sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 68",
+    "size": "medium",
+    "room": "outdoor",
+    "use": "sports",
+    "budget": "premium",
+    "description": "A solid choice for outdoor sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 69",
+    "size": "large",
+    "room": "living",
+    "use": "movies",
+    "budget": "low",
+    "description": "A solid choice for living movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 70",
+    "size": "large",
+    "room": "living",
+    "use": "movies",
+    "budget": "mid",
+    "description": "A solid choice for living movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 71",
+    "size": "large",
+    "room": "living",
+    "use": "movies",
+    "budget": "high",
+    "description": "A solid choice for living movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 72",
+    "size": "large",
+    "room": "living",
+    "use": "gaming",
+    "budget": "low",
+    "description": "A solid choice for living gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 73",
+    "size": "large",
+    "room": "living",
+    "use": "gaming",
+    "budget": "mid",
+    "description": "A solid choice for living gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 74",
+    "size": "large",
+    "room": "living",
+    "use": "gaming",
+    "budget": "premium",
+    "description": "A solid choice for living gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 75",
+    "size": "large",
+    "room": "living",
+    "use": "sports",
+    "budget": "low",
+    "description": "A solid choice for living sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 76",
+    "size": "large",
+    "room": "living",
+    "use": "sports",
+    "budget": "high",
+    "description": "A solid choice for living sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 77",
+    "size": "large",
+    "room": "living",
+    "use": "sports",
+    "budget": "premium",
+    "description": "A solid choice for living sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 78",
+    "size": "large",
+    "room": "bedroom",
+    "use": "movies",
+    "budget": "low",
+    "description": "A solid choice for bedroom movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 79",
+    "size": "large",
+    "room": "bedroom",
+    "use": "movies",
+    "budget": "mid",
+    "description": "A solid choice for bedroom movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 80",
+    "size": "large",
+    "room": "bedroom",
+    "use": "movies",
+    "budget": "high",
+    "description": "A solid choice for bedroom movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 81",
+    "size": "large",
+    "room": "bedroom",
+    "use": "movies",
+    "budget": "premium",
+    "description": "A solid choice for bedroom movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 82",
+    "size": "large",
+    "room": "bedroom",
+    "use": "gaming",
+    "budget": "low",
+    "description": "A solid choice for bedroom gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 83",
+    "size": "large",
+    "room": "bedroom",
+    "use": "gaming",
+    "budget": "mid",
+    "description": "A solid choice for bedroom gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 84",
+    "size": "large",
+    "room": "bedroom",
+    "use": "gaming",
+    "budget": "high",
+    "description": "A solid choice for bedroom gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 85",
+    "size": "large",
+    "room": "bedroom",
+    "use": "gaming",
+    "budget": "premium",
+    "description": "A solid choice for bedroom gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 86",
+    "size": "large",
+    "room": "bedroom",
+    "use": "sports",
+    "budget": "low",
+    "description": "A solid choice for bedroom sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 87",
+    "size": "large",
+    "room": "bedroom",
+    "use": "sports",
+    "budget": "mid",
+    "description": "A solid choice for bedroom sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 88",
+    "size": "large",
+    "room": "bedroom",
+    "use": "sports",
+    "budget": "premium",
+    "description": "A solid choice for bedroom sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 89",
+    "size": "large",
+    "room": "outdoor",
+    "use": "movies",
+    "budget": "low",
+    "description": "A solid choice for outdoor movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 90",
+    "size": "large",
+    "room": "outdoor",
+    "use": "movies",
+    "budget": "mid",
+    "description": "A solid choice for outdoor movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 91",
+    "size": "large",
+    "room": "outdoor",
+    "use": "movies",
+    "budget": "high",
+    "description": "A solid choice for outdoor movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 92",
+    "size": "large",
+    "room": "outdoor",
+    "use": "movies",
+    "budget": "premium",
+    "description": "A solid choice for outdoor movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 93",
+    "size": "large",
+    "room": "outdoor",
+    "use": "gaming",
+    "budget": "low",
+    "description": "A solid choice for outdoor gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 94",
+    "size": "large",
+    "room": "outdoor",
+    "use": "gaming",
+    "budget": "mid",
+    "description": "A solid choice for outdoor gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 95",
+    "size": "large",
+    "room": "outdoor",
+    "use": "gaming",
+    "budget": "high",
+    "description": "A solid choice for outdoor gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 96",
+    "size": "large",
+    "room": "outdoor",
+    "use": "gaming",
+    "budget": "premium",
+    "description": "A solid choice for outdoor gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 97",
+    "size": "large",
+    "room": "outdoor",
+    "use": "sports",
+    "budget": "low",
+    "description": "A solid choice for outdoor sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 98",
+    "size": "large",
+    "room": "outdoor",
+    "use": "sports",
+    "budget": "mid",
+    "description": "A solid choice for outdoor sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 99",
+    "size": "large",
+    "room": "outdoor",
+    "use": "sports",
+    "budget": "high",
+    "description": "A solid choice for outdoor sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 100",
+    "size": "xl",
+    "room": "living",
+    "use": "movies",
+    "budget": "low",
+    "description": "A solid choice for living movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 101",
+    "size": "xl",
+    "room": "living",
+    "use": "movies",
+    "budget": "mid",
+    "description": "A solid choice for living movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 102",
+    "size": "xl",
+    "room": "living",
+    "use": "movies",
+    "budget": "high",
+    "description": "A solid choice for living movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 103",
+    "size": "xl",
+    "room": "living",
+    "use": "movies",
+    "budget": "premium",
+    "description": "A solid choice for living movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 104",
+    "size": "xl",
+    "room": "living",
+    "use": "gaming",
+    "budget": "low",
+    "description": "A solid choice for living gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 105",
+    "size": "xl",
+    "room": "living",
+    "use": "gaming",
+    "budget": "mid",
+    "description": "A solid choice for living gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 106",
+    "size": "xl",
+    "room": "living",
+    "use": "gaming",
+    "budget": "high",
+    "description": "A solid choice for living gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 107",
+    "size": "xl",
+    "room": "living",
+    "use": "gaming",
+    "budget": "premium",
+    "description": "A solid choice for living gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 108",
+    "size": "xl",
+    "room": "living",
+    "use": "sports",
+    "budget": "low",
+    "description": "A solid choice for living sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 109",
+    "size": "xl",
+    "room": "living",
+    "use": "sports",
+    "budget": "high",
+    "description": "A solid choice for living sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 110",
+    "size": "xl",
+    "room": "living",
+    "use": "sports",
+    "budget": "premium",
+    "description": "A solid choice for living sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 111",
+    "size": "xl",
+    "room": "bedroom",
+    "use": "movies",
+    "budget": "low",
+    "description": "A solid choice for bedroom movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 112",
+    "size": "xl",
+    "room": "bedroom",
+    "use": "movies",
+    "budget": "mid",
+    "description": "A solid choice for bedroom movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 113",
+    "size": "xl",
+    "room": "bedroom",
+    "use": "movies",
+    "budget": "high",
+    "description": "A solid choice for bedroom movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 114",
+    "size": "xl",
+    "room": "bedroom",
+    "use": "movies",
+    "budget": "premium",
+    "description": "A solid choice for bedroom movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 115",
+    "size": "xl",
+    "room": "bedroom",
+    "use": "gaming",
+    "budget": "low",
+    "description": "A solid choice for bedroom gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 116",
+    "size": "xl",
+    "room": "bedroom",
+    "use": "gaming",
+    "budget": "mid",
+    "description": "A solid choice for bedroom gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 117",
+    "size": "xl",
+    "room": "bedroom",
+    "use": "gaming",
+    "budget": "high",
+    "description": "A solid choice for bedroom gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 118",
+    "size": "xl",
+    "room": "bedroom",
+    "use": "gaming",
+    "budget": "premium",
+    "description": "A solid choice for bedroom gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 119",
+    "size": "xl",
+    "room": "bedroom",
+    "use": "sports",
+    "budget": "low",
+    "description": "A solid choice for bedroom sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 120",
+    "size": "xl",
+    "room": "bedroom",
+    "use": "sports",
+    "budget": "mid",
+    "description": "A solid choice for bedroom sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 121",
+    "size": "xl",
+    "room": "bedroom",
+    "use": "sports",
+    "budget": "high",
+    "description": "A solid choice for bedroom sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 122",
+    "size": "xl",
+    "room": "bedroom",
+    "use": "sports",
+    "budget": "premium",
+    "description": "A solid choice for bedroom sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 123",
+    "size": "xl",
+    "room": "outdoor",
+    "use": "movies",
+    "budget": "low",
+    "description": "A solid choice for outdoor movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 124",
+    "size": "xl",
+    "room": "outdoor",
+    "use": "movies",
+    "budget": "mid",
+    "description": "A solid choice for outdoor movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 125",
+    "size": "xl",
+    "room": "outdoor",
+    "use": "movies",
+    "budget": "high",
+    "description": "A solid choice for outdoor movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 126",
+    "size": "xl",
+    "room": "outdoor",
+    "use": "movies",
+    "budget": "premium",
+    "description": "A solid choice for outdoor movies sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 127",
+    "size": "xl",
+    "room": "outdoor",
+    "use": "gaming",
+    "budget": "low",
+    "description": "A solid choice for outdoor gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 128",
+    "size": "xl",
+    "room": "outdoor",
+    "use": "gaming",
+    "budget": "mid",
+    "description": "A solid choice for outdoor gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 129",
+    "size": "xl",
+    "room": "outdoor",
+    "use": "gaming",
+    "budget": "high",
+    "description": "A solid choice for outdoor gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 130",
+    "size": "xl",
+    "room": "outdoor",
+    "use": "gaming",
+    "budget": "premium",
+    "description": "A solid choice for outdoor gaming sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 131",
+    "size": "xl",
+    "room": "outdoor",
+    "use": "sports",
+    "budget": "low",
+    "description": "A solid choice for outdoor sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 132",
+    "size": "xl",
+    "room": "outdoor",
+    "use": "sports",
+    "budget": "mid",
+    "description": "A solid choice for outdoor sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 133",
+    "size": "xl",
+    "room": "outdoor",
+    "use": "sports",
+    "budget": "high",
+    "description": "A solid choice for outdoor sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  },
+  {
+    "name": "Generic TV Model 134",
+    "size": "xl",
+    "room": "outdoor",
+    "use": "sports",
+    "budget": "premium",
+    "description": "A solid choice for outdoor sports sessions.",
+    "affiliateLink": "https://www.amazon.com/dp/B00000000?tag=findyourtv-20"
+  }
+]
