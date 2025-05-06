@@ -10,8 +10,8 @@ document.getElementById('tv-quiz').addEventListener('submit', function(e) {
       const budget = form.elements['budget'].value;
 
       const matches = data.filter(tv =>
-        tv.room === room &&
-        tv.use === use &&
+        tv.room.includes(room) &&
+        tv.use.includes(use) &&
         tv.budget === budget
       );
 
