@@ -8,16 +8,6 @@ This project is a simple static website designed to help users find the perfect 
 - `style.css`: The stylesheet that defines the visual appearance of the webpage, including layout, colors, and fonts.
 - `script.js`: The JavaScript file that handles the logic for processing user input and displaying the TV recommendation.
 
-## Setup Instructions
-1. Clone the repository to your local machine:
-   ```
-   git clone (https://github.com/tvfinder/which-tv-should-i-buy.git)
-   ```
-2. Navigate to the project directory:
-   ```
-   cd my-static-site
-   ```
-3. Open `index.html` in your web browser to view the site.
 
 ## Usage
 - Fill out the form by selecting your preferences for room, size, usage, and budget.
