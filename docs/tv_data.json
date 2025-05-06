@@ -66,7 +66,7 @@
   {
     "name": "Sony A80L OLED",
     "room": ["living", "bedroom"],
-    "use": ["movies", "gaming"],
+    "use": ["movies", "gaming", "sports"],
     "budget": "premium",
     "description": "Cinematic OLED experience with deep blacks and vivid colors.",
     "affiliateLink": "https://amzn.to/4iMlJad"
@@ -130,7 +130,7 @@
   {
     "name": "Samsung S90C OLED",
     "room": ["living"],
-    "use": ["gaming","movies"],
+    "use": ["gaming","movies", "sports"],
     "budget": "premium",
     "description": "Elite gaming performance with perfect blacks and 144Hz refresh rate.",
     "affiliateLink": "https://amzn.to/42J6iL6"
