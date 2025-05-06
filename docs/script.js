@@ -18,6 +18,7 @@ document.getElementById('tv-quiz').addEventListener('submit', function(e) {
         return;
       }
 
+      // Filter TVs based on selected room, use, and budget(s)
       const matches = data.filter(tv =>
         tv.room.includes(room) &&
         tv.use.includes(use) &&
@@ -27,15 +28,18 @@ document.getElementById('tv-quiz').addEventListener('submit', function(e) {
       const recommendation = document.getElementById('recommendation');
 
       if (matches.length > 0) {
-        recommendation.innerHTML = matches.map(tv => 
+        recommendation.innerHTML = matches.map(tv => `
           <div class="tv-card">
             <h2>${tv.name}</h2>
             <p>${tv.description}</p>
             <a href="${tv.affiliateLink}" target="_blank">View on Amazon</a>
           </div>
-        ).join('');
+        `).join('');
       } else {
         recommendation.textContent = "No TVs found for your preferences — try adjusting your choices!";
       }
+    })
+    .catch(error => {
+      console.error('Error fetching TV data:', error);
     });
 });
