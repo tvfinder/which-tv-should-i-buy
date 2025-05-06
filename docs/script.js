@@ -6,14 +6,15 @@ document.getElementById('tv-quiz').addEventListener('submit', function(e) {
     .then(data => {
       const form = e.target;
       const roomInputs = form.elements['room']; // get room checkbox inputs
-      const roomValues = Array.from(roomInputs).filter(input => input.checked).map(input => input.value); // get room values as an array
+      const roomValues = Array.from(roomInputs).map(input => input.value); // get room values as an array
       const use = form.elements['use'].value;
       const budget = form.elements['budget'].value;
 
       const matches = data.filter(tv =>
-        roomValues.includes(tv.room) && // check if TV is suitable for any of the selected rooms
-        tv.use === use &&
-        tv.budget === budget
+        roomValues.includes(tv.room) || // check if TV is suitable for any of the selected rooms
+        roomValues.includes(tv.rooms[0]) || // check if TV is suitable for any room in the array
+        roomValues.includes(tv.rooms[1]) || // check if TV is suitable for any room in the array
+        roomValues.includes(tv.rooms[2]) // check if TV is suitable for any room in the array
       );
 
       const recommendation = document.getElementById('recommendation');
