@@ -11,7 +11,7 @@ This project is a simple static website designed to help users find the perfect 
 ## Setup Instructions
 1. Clone the repository to your local machine:
    ```
-   git clone [<repository-url>](https://github.com/tvfinder/which-tv-should-i-buy.git)
+   git clone (https://github.com/tvfinder/which-tv-should-i-buy.git)
    ```
 2. Navigate to the project directory:
    ```
