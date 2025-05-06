@@ -11,26 +11,26 @@
     <h1>Which TV Should I Buy?</h1>
     <form id="tv-quiz">
       <label>Where will the TV go?</label>
-      <select name="room">
+      <select name="room" required>
         <option value="living">Living Room</option>
         <option value="bedroom">Bedroom</option>
         <option value="outdoor">Outdoor</option>
       </select>
 
       <label>How will you use it?</label>
-      <select name="use">
+      <select name="use" required>
         <option value="movies">Streaming / Movies</option>
         <option value="gaming">Gaming</option>
         <option value="sports">Sports</option>
       </select>
 
-      <label>What's your budget?</label>
-      <select name="budget">
-        <option value="low">Under $300</option>
-        <option value="mid">$300–$600</option>
-        <option value="high">$600–$1000</option>
-        <option value="premium">$1000+</option>
-      </select>
+      <fieldset>
+        <legend>What's your budget?</legend>
+        <label><input type="checkbox" name="budget" value="low"> Under $300</label><br>
+        <label><input type="checkbox" name="budget" value="mid"> $300–$600</label><br>
+        <label><input type="checkbox" name="budget" value="high"> $600–$1000</label><br>
+        <label><input type="checkbox" name="budget" value="premium"> $1000+</label>
+      </fieldset>
 
       <button type="submit">Find My TV</button>
     </form>
