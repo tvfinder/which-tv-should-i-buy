@@ -65,7 +65,7 @@
   },
   {
     "name": "Sony A80L OLED",
-    "room": ["living"],
+    "room": ["living", "bedroom"],
     "use": ["movies", "gaming"],
     "budget": "premium",
     "description": "Cinematic OLED experience with deep blacks and vivid colors.",
