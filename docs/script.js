@@ -11,7 +11,7 @@ document.getElementById('tv-quiz').addEventListener('submit', function(e) {
       const budget = form.elements['budget'].value;
 
       const matches = data.filter(tv =>
-        roomValues.includes(tv.room) && // check if TV is suitable for any of the selected rooms
+        roomValues.some(room => tv.rooms.includes(room)) && // check if TV is suitable for any of the selected rooms
         tv.use === use &&
         tv.budget === budget
       );
