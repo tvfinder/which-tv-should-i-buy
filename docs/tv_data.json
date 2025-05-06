@@ -1,45 +1,202 @@
-{
-  "TVs": [
-    {
-      "room": "Living Room",
-      "size": "43\"-55\"",
-      "budget": "$300-$600",
-      "use": "Streaming / Movies",
-      "tvs": [
-        {
-          "brand": "Samsung",
-          "model": "UN55AU8000",
-          "affiliateLink": "https://www.amazon.com/Samsung-UN55AU8000FXZA-55-Inch-UHD-4K/dp/B07BQD5R2Y?th=1",
-          "price": "$449"
-        },
-        {
-          "brand": "LG",
-          "model": "UM7300",
-          "affiliateLink": "https://www.amazon.com/LG-55UM7300PUA-55-Inch-UM7300-Series/dp/B07BQD5R2Y?th=1",
-          "price": "$449"
-        }
-      ]
-    },
-    {
-      "room": "Living Room",
-      "size": "55\"-75\"",
-      "budget": "$600-$1000",
-      "use": "Gaming",
-      "tvs": [
-        {
-          "brand": "Sony",
-          "model": "X7500E",
-          "affiliateLink": "https://www.amazon.com/Sony-X7500E-65-Inch-4K-UHD-Smart-TV/dp/B07BQD5R2Y?th=1",
-          "price": "$799"
-        },
-        {
-          "brand": "Vizio",
-          "model": "P-Series Quantum X",
-          "affiliateLink": "https://www.amazon.com/Vizio-P-Series-Quantum-X-65-Inch/dp/B07BQD5R2Y?th=1",
-          "price": "$999"
-        }
-      ]
-    },
-    // ...
-  ]
-}
+[
+  {
+    "name": "Samsung Q60C QLED",
+    "room": "living",
+    "use": "movies",
+    "budget": "mid",
+    "description": "Vivid colors and sharp 4K for living room movie nights.",
+    "affiliateLink": "https://www.amazon.com/dp/B0BZL4Q9TG?tag=findyourtv-20"
+  },
+  {
+    "name": "LG C3 OLED",
+    "room": "living",
+    "use": "gaming",
+    "budget": "high",
+    "description": "OLED clarity with super-fast response times for next-gen gaming.",
+    "affiliateLink": "https://www.amazon.com/dp/B0BVV9D1J7?tag=findyourtv-20"
+  },
+  {
+    "name": "TCL 5-Series Roku",
+    "room": "bedroom",
+    "use": "movies",
+    "budget": "low",
+    "description": "Great value 4K TV with built-in Roku for easy streaming.",
+    "affiliateLink": "https://www.amazon.com/dp/B09KP6S3Y5?tag=findyourtv-20"
+  },
+  {
+    "name": "Sony X90K",
+    "room": "bedroom",
+    "use": "sports",
+    "budget": "high",
+    "description": "Smooth motion handling, perfect for sports fans.",
+    "affiliateLink": "https://www.amazon.com/dp/B09V3J6WDM?tag=findyourtv-20"
+  },
+  {
+    "name": "Vizio M-Series QX",
+    "room": "living",
+    "use": "sports",
+    "budget": "mid",
+    "description": "Big screen excitement for the game with excellent color and brightness.",
+    "affiliateLink": "https://www.amazon.com/dp/B0BCH2KQ46?tag=findyourtv-20"
+  },
+  {
+    "name": "Hisense U6K",
+    "room": "bedroom",
+    "use": "gaming",
+    "budget": "low",
+    "description": "Excellent budget gaming TV with solid performance and local dimming.",
+    "affiliateLink": "https://www.amazon.com/dp/B0C5WSW55C?tag=findyourtv-20"
+  },
+  {
+    "name": "Samsung Terrace QLED",
+    "room": "outdoor",
+    "use": "sports",
+    "budget": "premium",
+    "description": "Weather-resistant 4K QLED, built for outdoor viewing.",
+    "affiliateLink": "https://www.amazon.com/dp/B087CGX61V?tag=findyourtv-20"
+  },
+  {
+    "name": "LG UHD UR9000",
+    "room": "outdoor",
+    "use": "movies",
+    "budget": "mid",
+    "description": "Durable display for covered patios and decks.",
+    "affiliateLink": "https://www.amazon.com/dp/B0BWKLYVKF?tag=findyourtv-20"
+  },
+  {
+    "name": "Sony A80L OLED",
+    "room": "living",
+    "use": "movies",
+    "budget": "premium",
+    "description": "Cinematic OLED experience with deep blacks and vivid colors.",
+    "affiliateLink": "https://www.amazon.com/dp/B0C4F6TQ9H?tag=findyourtv-20"
+  },
+  {
+    "name": "TCL Q6 Series",
+    "room": "living",
+    "use": "sports",
+    "budget": "mid",
+    "description": "Wide color, smooth action for fast-paced sports.",
+    "affiliateLink": "https://www.amazon.com/dp/B0BWTZHH3S?tag=findyourtv-20"
+  },
+  {
+    "name": "Hisense A6 Series",
+    "room": "bedroom",
+    "use": "movies",
+    "budget": "low",
+    "description": "Solid 4K entry-level TV with Dolby Vision and voice remote.",
+    "affiliateLink": "https://www.amazon.com/dp/B0BWKJ18FR?tag=findyourtv-20"
+  },
+  {
+    "name": "LG NanoCell 75 Series",
+    "room": "living",
+    "use": "gaming",
+    "budget": "mid",
+    "description": "NanoCell technology delivers crisp, rich visuals for games and streams.",
+    "affiliateLink": "https://www.amazon.com/dp/B09V3GQFL5?tag=findyourtv-20"
+  },
+  {
+    "name": "Samsung CU8000",
+    "room": "living",
+    "use": "movies",
+    "budget": "mid",
+    "description": "Crystal UHD picture with HDR and built-in Alexa.",
+    "affiliateLink": "https://www.amazon.com/dp/B0BZL5Q7PH?tag=findyourtv-20"
+  },
+  {
+    "name": "TCL 4-Series Roku",
+    "room": "bedroom",
+    "use": "sports",
+    "budget": "low",
+    "description": "Good basic TV for casual sports viewing on a budget.",
+    "affiliateLink": "https://www.amazon.com/dp/B09HKDHSYB?tag=findyourtv-20"
+  },
+  {
+    "name": "Sony X77L",
+    "room": "living",
+    "use": "movies",
+    "budget": "mid",
+    "description": "Vibrant 4K picture with motion clarity and Google TV interface.",
+    "affiliateLink": "https://www.amazon.com/dp/B0C3J9D6S3?tag=findyourtv-20"
+  },
+  {
+    "name": "Vizio V-Series",
+    "room": "bedroom",
+    "use": "gaming",
+    "budget": "low",
+    "description": "Affordable gaming-ready TV with Variable Refresh Rate.",
+    "affiliateLink": "https://www.amazon.com/dp/B092VZNLKN?tag=findyourtv-20"
+  },
+  {
+    "name": "Samsung S90C OLED",
+    "room": "living",
+    "use": "gaming",
+    "budget": "premium",
+    "description": "Elite gaming performance with perfect blacks and 144Hz refresh rate.",
+    "affiliateLink": "https://www.amazon.com/dp/B0BZKFDZ3K?tag=findyourtv-20"
+  },
+  {
+    "name": "LG B3 OLED",
+    "room": "bedroom",
+    "use": "movies",
+    "budget": "high",
+    "description": "Deep OLED blacks and Dolby Vision for immersive watching.",
+    "affiliateLink": "https://www.amazon.com/dp/B0BVV5G68D?tag=findyourtv-20"
+  },
+  {
+    "name": "Sony X85K",
+    "room": "living",
+    "use": "sports",
+    "budget": "high",
+    "description": "High refresh rate and vivid HDR colors perfect for fast action.",
+    "affiliateLink": "https://www.amazon.com/dp/B09V3G1T5P?tag=findyourtv-20"
+  },
+  {
+    "name": "Hisense U8K",
+    "room": "living",
+    "use": "movies",
+    "budget": "mid",
+    "description": "Ultra-bright ULED display with excellent contrast and Dolby Atmos.",
+    "affiliateLink": "https://www.amazon.com/dp/B0C5WCFR6J?tag=findyourtv-20"
+  },
+  {
+    "name": "TCL 6-Series Roku",
+    "room": "bedroom",
+    "use": "gaming",
+    "budget": "mid",
+    "description": "Mini-LED gaming performer with high peak brightness and VRR.",
+    "affiliateLink": "https://www.amazon.com/dp/B09F3Q29TB?tag=findyourtv-20"
+  },
+  {
+    "name": "Vizio MQX Series",
+    "room": "living",
+    "use": "gaming",
+    "budget": "mid",
+    "description": "Great gaming and HDR experience without breaking the bank.",
+    "affiliateLink": "https://www.amazon.com/dp/B0BFN4R2NR?tag=findyourtv-20"
+  },
+  {
+    "name": "Samsung TU7000",
+    "room": "bedroom",
+    "use": "movies",
+    "budget": "low",
+    "description": "Reliable UHD TV for casual watching and streaming.",
+    "affiliateLink": "https://www.amazon.com/dp/B08CBP6WVC?tag=findyourtv-20"
+  },
+  {
+    "name": "Sony X80K",
+    "room": "living",
+    "use": "sports",
+    "budget": "mid",
+    "description": "Smooth motion and crisp 4K picture with Dolby Vision.",
+    "affiliateLink": "https://www.amazon.com/dp/B09V3G8ZDW?tag=findyourtv-20"
+  },
+  {
+    "name": "LG UQ8000",
+    "room": "bedroom",
+    "use": "sports",
+    "budget": "low",
+    "description": "Solid budget-friendly TV with decent motion handling.",
+    "affiliateLink": "https://www.amazon.com/dp/B09V4FWB51?tag=findyourtv-20"
+  }
+]
