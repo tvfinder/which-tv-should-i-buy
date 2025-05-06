@@ -5,13 +5,13 @@ document.getElementById('tv-quiz').addEventListener('submit', function(e) {
     .then(response => response.json())
     .then(data => {
       const form = e.target;
-      const rooms = form.elements['room'].selectedOptions; // get selected room options
-      const roomValues = Array.from(rooms).map(option => option.value); // get room values as an array
+      const roomInputs = form.elements['room']; // get room checkbox inputs
+      const roomValues = Array.from(roomInputs).filter(input => input.checked).map(input => input.value); // get room values as an array
       const use = form.elements['use'].value;
       const budget = form.elements['budget'].value;
 
       const matches = data.filter(tv =>
-        roomValues.some(room => tv.rooms.includes(room)) && // check if TV is suitable for any of the selected rooms
+        roomValues.includes(tv.room) && // check if TV is suitable for any of the selected rooms
         tv.use === use &&
         tv.budget === budget
       );
