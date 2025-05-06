@@ -7,6 +7,7 @@ document.getElementById('tv-quiz').addEventListener('submit', function(e) {
       const form = e.target;
       const room = form.elements['room'].value;
       const use = form.elements['use'].value;
+      const size = form.elements['size'].value;
 
       // Grab checked budget values
       const budgetCheckboxes = form.querySelectorAll('input[name="budget"]:checked');
@@ -21,7 +22,8 @@ document.getElementById('tv-quiz').addEventListener('submit', function(e) {
       const matches = data.filter(tv =>
         tv.room.includes(room) &&
         tv.use.includes(use) &&
-        selectedBudgets.includes(tv.budget)
+        selectedBudgets.includes(tv.budget) &&
+        tv.size === size
       );
 
       const recommendation = document.getElementById('recommendation');
