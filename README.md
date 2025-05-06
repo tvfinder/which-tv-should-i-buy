@@ -1,7 +1,7 @@
 # TV Recommendation Static Site
 
 ## Overview
-This project is a simple static website designed to help users find the perfect TV based on their preferences. Users can fill out a form indicating where they want to place the TV, the size they are looking for, how they will use it, and their budget. Based on their selections, the site will provide a TV recommendation.
+This project is a simple static website designed to help users find the perfect TV based on their preferences. Users can fill out a form indicating where they want to place the TV, how they will use it, and their budget. Based on their selections, the site will provide a TV recommendation.
 
 ## Project Structure
 - `index.html`: The main HTML document containing the structure of the webpage and the recommendation form.
