@@ -4,7 +4,7 @@
     "room": ["living", "bedroom"],
     "use": ["movies"],
     "budget": "mid",
-    "sizes": ["50\"", "65\""],
+    "sizes": ["55\"", "65\"", "75\""],
     "description": "Vivid colors and sharp 4K for living room movie nights.",
     "affiliateLink": "https://amzn.to/44U8cd9"
   },
@@ -13,7 +13,7 @@
     "room": ["living"],
     "use": ["gaming", "movies"],
     "budget": "high",
-    "sizes": ["55\"", "65\""],
+    "sizes": ["65\"", "75\"", "85\""],
     "description": "OLED clarity with super-fast response times for next-gen gaming.",
     "affiliateLink": "https://amzn.to/44kXLzb"
   },
@@ -22,7 +22,7 @@
     "room": ["living", "bedroom"],
     "use": ["movies"],
     "budget": "low",
-    "sizes": ["43\"", "55\""],
+    "sizes": ["43\"", "50\"", "55\""],
     "description": "Great value 4K TV with built-in Roku for easy streaming.",
     "affiliateLink": "https://amzn.to/4iPIp9p"
   },
@@ -31,7 +31,7 @@
     "room": ["bedroom", "living"],
     "use": ["sports"],
     "budget": "high",
-    "sizes": ["55\"", "75\""],
+    "sizes": ["65\"", "75\"", "85\""],
     "description": "Smooth motion handling, perfect for sports fans.",
     "affiliateLink": "https://amzn.to/4k3TZPb"
   },
@@ -40,7 +40,7 @@
     "room": ["living"],
     "use": ["sports"],
     "budget": "mid",
-    "sizes": ["50\"", "65\""],
+    "sizes": ["55\"", "65\"", "75\""],
     "description": "Big screen excitement for the game with excellent color and brightness.",
     "affiliateLink": "https://amzn.to/432j721"
   },
@@ -49,7 +49,7 @@
     "room": ["living", "bedroom"],
     "use": ["gaming"],
     "budget": "low",
-    "sizes": ["50\"", "65\""],
+    "sizes": ["43\"", "50\"", "55\""],
     "description": "Excellent budget gaming TV with solid performance and local dimming.",
     "affiliateLink": "https://amzn.to/44WdRPR"
   },
@@ -58,7 +58,7 @@
     "room": ["outdoor"],
     "use": ["sports"],
     "budget": "premium",
-    "sizes": ["65\""],
+    "sizes": ["75\"", "85\"", "98\""],
     "description": "Weather-resistant 4K QLED, built for outdoor viewing.",
     "affiliateLink": "https://amzn.to/3EDURLC"
   },
@@ -67,7 +67,7 @@
     "room": ["outdoor"],
     "use": ["movies", "sports"],
     "budget": "mid",
-    "sizes": ["43\"", "65\""],
+    "sizes": ["55\"", "65\"", "75\""],
     "description": "Durable display for covered patios and decks.",
     "affiliateLink": "https://amzn.to/3EDUVuQ"
   },
@@ -76,7 +76,7 @@
     "room": ["living", "bedroom"],
     "use": ["movies", "gaming", "sports"],
     "budget": "premium",
-    "sizes": ["65\""],
+    "sizes": ["75\"", "85\"", "98\""],
     "description": "Cinematic OLED experience with deep blacks and vivid colors.",
     "affiliateLink": "https://amzn.to/4iMlJad"
   },
@@ -85,7 +85,7 @@
     "room": ["living", "bedroom"],
     "use": ["sports", "movies"],
     "budget": "mid",
-    "sizes": ["50\"", "65\""],
+    "sizes": ["55\"", "65\"", "75\""],
     "description": "Wide color, smooth action for fast-paced sports.",
     "affiliateLink": "https://amzn.to/4iQKaTR"
   },
@@ -94,7 +94,7 @@
     "room": ["living", "bedroom"],
     "use": ["movies"],
     "budget": "low",
-    "sizes": ["43\"", "55\""],
+    "sizes": ["43\"", "50\"", "55\""],
     "description": "Solid 4K entry-level TV with Dolby Vision and voice remote.",
     "affiliateLink": "https://amzn.to/3GBK1Gz"
   },
@@ -103,7 +103,7 @@
     "room": ["living", "bedroom"],
     "use": ["gaming", "movies"],
     "budget": "mid",
-    "sizes": ["50\"", "65\""],
+    "sizes": ["55\"", "65\"", "75\""],
     "description": "NanoCell technology delivers crisp, rich visuals for games and streams.",
     "affiliateLink": "https://amzn.to/3YZCIOX"
   },
@@ -112,7 +112,7 @@
     "room": ["living", "bedroom"],
     "use": ["movies"],
     "budget": "mid",
-    "sizes": ["50\"", "65\""],
+    "sizes": ["55\"", "65\"", "75\""],
     "description": "Crystal UHD picture with HDR and built-in Alexa.",
     "affiliateLink": "https://amzn.to/4k0UJVX"
   },
@@ -121,7 +121,7 @@
     "room": ["living", "bedroom"],
     "use": ["sports"],
     "budget": "low",
-    "sizes": ["43\"", "55\""],
+    "sizes": ["43\"", "50\"", "55\""],
     "description": "Good basic TV for casual sports viewing on a budget.",
     "affiliateLink": "https://amzn.to/3GCrtWr"
   },
@@ -130,7 +130,7 @@
     "room": ["living"],
     "use": ["movies", "sports", "gaming"],
     "budget": "mid",
-    "sizes": ["50\"", "65\""],
+    "sizes": ["55\"", "65\"", "75\""],
     "description": "Vibrant 4K picture with motion clarity and Google TV interface.",
     "affiliateLink": "https://amzn.to/3EFUVKR"
   },
@@ -139,88 +139,88 @@
     "room": ["living", "bedroom"],
     "use": ["gaming"],
     "budget": "low",
-    "sizes": ["43\"", "55\""],
+    "sizes": ["43\"", "50\"", "55\""],
     "description": "Affordable gaming-ready TV with Variable Refresh Rate.",
     "affiliateLink": "https://amzn.to/4iLYlcD"
   },
   {
     "name": "Samsung S90C OLED",
     "room": ["living"],
-    "use": ["gaming", "movies", "sports"],
+    "use": ["gaming","movies", "sports"],
     "budget": "premium",
-    "sizes": ["65\""],
+    "sizes": ["75\"", "85\"", "98\""],
     "description": "Elite gaming performance with perfect blacks and 144Hz refresh rate.",
     "affiliateLink": "https://amzn.to/42J6iL6"
   },
   {
     "name": "LG B3 OLED",
     "room": ["living", "bedroom"],
-    "use": ["gaming", "movies"],
+    "use": ["gaming","movies"],
     "budget": "high",
-    "sizes": ["55\"", "65\""],
+    "sizes": ["65\"", "75\"", "85\""],
     "description": "Deep OLED blacks and Dolby Vision for immersive watching.",
     "affiliateLink": "https://amzn.to/4kacfGT"
   },
   {
     "name": "Sony X85K",
     "room": ["living", "bedroom"],
-    "use": ["gaming", "movies"],
+    "use": ["gaming","movies"],
     "budget": "high",
-    "sizes": ["55\"", "65\""],
+    "sizes": ["65\"", "75\"", "85\""],
     "description": "High refresh rate and vivid HDR colors perfect for fast action.",
     "affiliateLink": "https://amzn.to/4iRc0PY"
   },
   {
     "name": "Hisense U8",
     "room": ["living", "bedroom"],
-    "use": ["gaming", "movies"],
+    "use": ["gaming","movies"],
     "budget": "mid",
-    "sizes": ["50\"", "65\""],
+    "sizes": ["55\"", "65\"", "75\""],
     "description": "Ultra-bright ULED display with excellent contrast and Dolby Atmos.",
     "affiliateLink": "https://amzn.to/450ubzd"
   },
   {
     "name": "TCL 5-Series Roku",
     "room": ["living", "bedroom"],
-    "use": ["gaming", "movies", "sports"],
+    "use": ["gaming","movies", "sports"],
     "budget": "mid",
-    "sizes": ["50\"", "65\""],
+    "sizes": ["55\"", "65\"", "75\""],
     "description": "Mini-LED gaming performer with high peak brightness and VRR.",
     "affiliateLink": "https://amzn.to/434FmED"
   },
   {
     "name": "Vizio MQX Series",
     "room": ["living", "bedroom"],
-    "use": ["gaming", "movies"],
+    "use": ["gaming","movies"],
     "budget": "mid",
-    "sizes": ["50\"", "65\""],
+    "sizes": ["55\"", "65\"", "75\""],
     "description": "Great gaming and HDR experience without breaking the bank.",
     "affiliateLink": "https://amzn.to/4k4AohV"
   },
   {
     "name": "Samsung TU7000",
     "room": ["living", "bedroom"],
-    "use": ["gaming", "movies"],
+    "use": ["gaming","movies"],
     "budget": "low",
-    "sizes": ["43\"", "55\""],
+    "sizes": ["43\"", "50\"", "55\""],
     "description": "Reliable UHD TV for casual watching and streaming.",
     "affiliateLink": "https://amzn.to/4daIxzi"
   },
   {
     "name": "Sony X80K",
     "room": ["living", "bedroom"],
-    "use": ["gaming", "movies", "sports"],
+    "use": ["gaming","movies", "sports"],
     "budget": "mid",
-    "sizes": ["50\"", "65\""],
+    "sizes": ["55\"", "65\"", "75\""],
     "description": "Smooth motion and crisp 4K picture with Dolby Vision.",
     "affiliateLink": "https://amzn.to/4iV3Xl9"
   },
   {
     "name": "LG UT75 Series",
     "room": ["living", "bedroom"],
-    "use": ["gaming", "movies", "sports"],
+    "use": ["gaming","movies", "sports"],
     "budget": "low",
-    "sizes": ["43\"", "55\""],
+    "sizes": ["43\"", "50\"", "55\""],
     "description": "Solid budget-friendly TV with decent motion handling.",
     "affiliateLink": "https://amzn.to/4jMBhvO"
   }
