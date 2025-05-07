@@ -50,20 +50,24 @@ document.getElementById('tv-quiz').addEventListener('submit', function(e) {
     });
 });
 
-// Feedback Popup Toggle & Copy — mobile and desktop friendly
+// Mobile feedback popup toggle for small screens
 const feedbackButton = document.querySelector('.feedback-button');
 const feedbackPopup = document.querySelector('.feedback-popup');
 
-// Toggle popup on button click
 feedbackButton.addEventListener('click', (e) => {
-  e.stopPropagation(); // prevent window click from immediately closing it
-  feedbackPopup.style.display = feedbackPopup.style.display === 'block' ? 'none' : 'block';
+  // Only activate on screens ≤ 600px
+  if (window.innerWidth <= 600) {
+    e.stopPropagation();
+    feedbackPopup.classList.toggle('show');
+  }
 });
 
-// Close popup when clicking outside
+// Close popup on outside click for mobile
 window.addEventListener('click', (e) => {
-  if (!feedbackPopup.contains(e.target) && !feedbackButton.contains(e.target)) {
-    feedbackPopup.style.display = 'none';
+  if (window.innerWidth <= 600) {
+    if (!feedbackPopup.contains(e.target) && !feedbackButton.contains(e.target)) {
+      feedbackPopup.classList.remove('show');
+    }
   }
 });
 
