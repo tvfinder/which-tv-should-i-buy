@@ -131,8 +131,8 @@ form button:hover {
 }
 
 .feedback-popup #copy-message {
-  margin-top: 10px;
-  font-size: 12px;
+  margin-top: 15px;
+  font-size: 10px;
   color: green;
   display: none;
 }
