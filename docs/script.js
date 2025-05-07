@@ -1,3 +1,4 @@
+// TV Quiz Recommendation
 document.getElementById('tv-quiz').addEventListener('submit', function(e) {
   e.preventDefault();
 
@@ -9,24 +10,20 @@ document.getElementById('tv-quiz').addEventListener('submit', function(e) {
       const use = form.elements['use'].value;
       const sizeChoice = form.elements['size'].value;
 
-      // Get selected budget checkboxes
       const budgetCheckboxes = form.querySelectorAll('input[name="budget"]:checked');
       const selectedBudgets = Array.from(budgetCheckboxes).map(cb => cb.value);
 
-      // Ensure at least one budget is selected
       if (selectedBudgets.length === 0) {
         alert("Please select at least one budget option.");
         return;
       }
 
-      // Match sizeChoice to actual size ranges in the data
       let sizeRanges = [];
-      if (sizeChoice === 'small') sizeRanges = ['43"', '50"']; // Low budget sizes
-      if (sizeChoice === 'medium') sizeRanges = ['55"', '65"']; // Mid budget sizes
-      if (sizeChoice === 'large') sizeRanges = ['65"', '75"']; // High budget sizes
-      if (sizeChoice === 'xl') sizeRanges = ['75"', '85"', '98"']; // Premium sizes
+      if (sizeChoice === 'small') sizeRanges = ['43"', '50"'];
+      if (sizeChoice === 'medium') sizeRanges = ['55"', '65"'];
+      if (sizeChoice === 'large') sizeRanges = ['65"', '75"'];
+      if (sizeChoice === 'xl') sizeRanges = ['75"', '85"', '98"'];
 
-      // Filter the data based on room, use case, budget, and size
       const matches = data.filter(tv =>
         tv.room.includes(room) &&
         tv.use.includes(use) &&
@@ -51,4 +48,27 @@ document.getElementById('tv-quiz').addEventListener('submit', function(e) {
     .catch(error => {
       console.error('Error fetching TV data:', error);
     });
+});
+
+// Feedback Popup Hover & Copy
+const feedbackButton = document.querySelector('.feedback-button');
+const feedbackPopup = document.querySelector('.feedback-popup');
+
+feedbackButton.addEventListener('mouseenter', () => {
+  feedbackPopup.style.display = 'block';
+});
+
+document.querySelector('.feedback-link').addEventListener('mouseleave', () => {
+  feedbackPopup.style.display = 'none';
+});
+
+document.getElementById('copy-button').addEventListener('click', () => {
+  const email = document.getElementById('feedback-email').innerText;
+  navigator.clipboard.writeText(email).then(() => {
+    const msg = document.getElementById('copy-message');
+    msg.style.display = 'block';
+    setTimeout(() => {
+      msg.style.display = 'none';
+    }, 1500);
+  });
 });
