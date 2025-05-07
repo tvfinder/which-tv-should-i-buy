@@ -1,3 +1,4 @@
+/* General Layout */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -6,6 +7,7 @@ body {
   color: #333;
 }
 
+/* Main Container */
 .container {
   max-width: 800px;
   margin: 80px auto;
@@ -15,19 +17,34 @@ body {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
+/* Header */
 h1 {
   margin-bottom: 20px;
   font-size: 32px;
 }
 
+/* Form Styling */
 form label {
   display: block;
   margin: 12px 0 6px;
   font-weight: bold;
 }
 
-form select, form input[type="checkbox"], form button {
+form select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #fff;
   margin-bottom: 10px;
+}
+
+.checkbox-group {
+  margin: 10px 0;
+}
+
+form input[type="checkbox"] {
+  margin-right: 6px;
 }
 
 .checkbox-group label {
@@ -35,19 +52,22 @@ form select, form input[type="checkbox"], form button {
   margin-right: 15px;
 }
 
-button {
+form button {
+  display: block;
   padding: 10px 16px;
   background: #0077cc;
   color: #fff;
   border: none;
   border-radius: 6px;
   cursor: pointer;
+  margin-top: 20px;
 }
 
-button:hover {
+form button:hover {
   background: #005fa3;
 }
 
+/* Feedback Link */
 .feedback-link {
   position: absolute;
   top: 20px;
@@ -68,4 +88,42 @@ button:hover {
 .feedback-link a:hover {
   background-color: #0077cc;
   color: #fff;
+}
+
+/* Recommendation Section */
+#recommendation {
+  margin-top: 30px;
+}
+
+/* TV Card Style */
+.tv-card {
+  background: #f0f4f8;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.tv-card h2 {
+  margin-top: 0;
+  color: #0077cc;
+}
+
+.tv-card p {
+  margin: 10px 0;
+}
+
+.tv-card a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 14px;
+  background: #0077cc;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.tv-card a:hover {
+  background: #005fa3;
 }
