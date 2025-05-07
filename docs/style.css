@@ -99,7 +99,7 @@ form button:hover {
 
 .feedback-popup {
   display: none;
-  position: absolute;
+  position: fixed;
   top: 45px;
   right: 0;
   background: #fff;
