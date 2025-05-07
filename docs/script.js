@@ -7,22 +7,30 @@ document.getElementById('tv-quiz').addEventListener('submit', function(e) {
       const form = e.target;
       const room = form.elements['room'].value;
       const use = form.elements['use'].value;
+      const sizeChoice = form.elements['size'].value;
 
-      // Grab checked budget values
+      // Get selected budget checkboxes
       const budgetCheckboxes = form.querySelectorAll('input[name="budget"]:checked');
       const selectedBudgets = Array.from(budgetCheckboxes).map(cb => cb.value);
 
-      // Require at least one budget to be checked
       if (selectedBudgets.length === 0) {
         alert("Please select at least one budget option.");
         return;
       }
 
-      // Filter TVs based on selected room, use, and budget(s)
+      // Match sizeChoice to actual size ranges in the data
+      let sizeRanges = [];
+      if (sizeChoice === 'small') sizeRanges = ['43-55']; // or 'under 43' if you have it
+      if (sizeChoice === 'medium') sizeRanges = ['43-55'];
+      if (sizeChoice === 'large') sizeRanges = ['55-75'];
+      if (sizeChoice === 'xl') sizeRanges = ['75+'];
+
+      // Filter the data based on form inputs
       const matches = data.filter(tv =>
         tv.room.includes(room) &&
         tv.use.includes(use) &&
-        selectedBudgets.includes(tv.budget)
+        selectedBudgets.includes(tv.budget) &&
+        sizeRanges.includes(tv.size)
       );
 
       const recommendation = document.getElementById('recommendation');
