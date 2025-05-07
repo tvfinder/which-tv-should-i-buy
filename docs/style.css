@@ -69,7 +69,7 @@ form button:hover {
   background: #005fa3;
 }
 
-/* Feedback Link + Hover Popup */
+/* Feedback Link */
 .feedback-link {
   position: fixed;
   top: 20px;
@@ -91,8 +91,10 @@ form button:hover {
   background-color: #005fa3;
 }
 
+/* Feedback Popup — now with fade-in animation */
 .feedback-popup {
-  display: none;
+  opacity: 0;
+  visibility: hidden;
   position: fixed;
   top: 55px;
   right: 0;
@@ -104,6 +106,12 @@ form button:hover {
   text-align: center;
   min-width: 220px;
   z-index: 1001;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.feedback-popup.show {
+  opacity: 1;
+  visibility: visible;
 }
 
 .feedback-popup span {
