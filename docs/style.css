@@ -1,58 +1,53 @@
 body {
-  font-family: 'Arial', sans-serif;
-  background: #f0f0f0;
+  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 20px;
+  padding: 0;
+  background: #f8f8f8;
+  color: #333;
 }
 
 .container {
-  max-width: 500px;
-  margin: 40px auto;
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 20px;
   background: #fff;
-  padding: 30px;
   border-radius: 12px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 h1 {
-  text-align: center;
   margin-bottom: 20px;
+  font-size: 32px;
 }
 
 form label {
   display: block;
-  margin: 15px 0 5px;
+  margin: 12px 0 6px;
   font-weight: bold;
 }
 
-form select, form button {
-  width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-  border: 1px solid #ddd;
-  border-radius: 6px;
+form select, form input[type="checkbox"], form button {
+  margin-bottom: 10px;
 }
 
-form button {
-  background: #007bff;
+.checkbox-group label {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+button {
+  padding: 10px 16px;
+  background: #0077cc;
   color: #fff;
   border: none;
-  margin-top: 20px;
-  cursor: pointer;
-  font-size: 16px;
-}
-
-form button:hover {
-  background: #0056b3;
-}
-
-#recommendation {
-  margin-top: 30px;
-  padding: 15px;
-  background: #e9f7ef;
-  border: 1px solid #d4edda;
   border-radius: 6px;
+  cursor: pointer;
 }
+
+button:hover {
+  background: #005fa3;
+}
+
 .feedback-link {
   position: absolute;
   top: 20px;
@@ -61,16 +56,16 @@ form button:hover {
 
 .feedback-link a {
   text-decoration: none;
-  color: #333;
+  color: #0077cc;
   font-weight: bold;
   padding: 8px 12px;
-  border: 1px solid #ccc;
+  border: 1px solid #0077cc;
   border-radius: 6px;
-  background-color: #f9f9f9;
+  background-color: #e6f0fa;
   transition: background-color 0.3s, color 0.3s;
 }
 
 .feedback-link a:hover {
-  background-color: #333;
+  background-color: #0077cc;
   color: #fff;
 }
