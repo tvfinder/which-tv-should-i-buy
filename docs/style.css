@@ -67,27 +67,68 @@ form button:hover {
   background: #005fa3;
 }
 
-/* Feedback Link */
+/* Feedback Link + Hover Popup */
 .feedback-link {
-  position: absolute;
+  position: fixed;
   top: 20px;
   right: 20px;
+  z-index: 1000;
 }
 
-.feedback-link a {
-  text-decoration: none;
-  color: #0077cc;
-  font-weight: bold;
+.feedback-button {
   padding: 8px 12px;
-  border: 1px solid #0077cc;
-  border-radius: 6px;
-  background-color: #e6f0fa;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-.feedback-link a:hover {
   background-color: #0077cc;
   color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.feedback-button:hover {
+  background-color: #005fa3;
+}
+
+.feedback-popup {
+  display: none;
+  position: absolute;
+  top: 45px;
+  right: 0;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  text-align: center;
+  min-width: 220px;
+  z-index: 1001;
+}
+
+.feedback-popup span {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  word-break: break-word;
+}
+
+#copy-button {
+  padding: 5px 10px;
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#copy-button:hover {
+  background-color: #005fa3;
+}
+
+#copy-message {
+  margin-top: 5px;
+  font-size: 12px;
+  color: green;
+  display: none;
 }
 
 /* Recommendation Section */
