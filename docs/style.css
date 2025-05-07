@@ -90,10 +90,6 @@ form button:hover {
 }
 
 .feedback-button:hover {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  z-index: 1000;
   background-color: #005fa3;
 }
 
@@ -119,20 +115,22 @@ form button:hover {
   word-break: break-word;
 }
 
-#copy-button {
+.feedback-popup #copy-button {
   padding: 5px 10px;
   background-color: #0077cc;
   color: #fff;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  position: relative;
+  top: 10px;
 }
 
-#copy-button:hover {
+.feedback-popup #copy-button:hover {
   background-color: #005fa3;
 }
 
-#copy-message {
+.feedback-popup #copy-message {
   margin-top: 5px;
   font-size: 12px;
   color: green;
