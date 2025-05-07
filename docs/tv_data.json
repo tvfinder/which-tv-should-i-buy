@@ -56,7 +56,7 @@
   {
     "name": "Samsung Terrace QLED",
     "room": ["outdoor"],
-    "use": ["sports"],
+    "use": ["sports", "movies"],
     "budget": "premium",
     "sizes": ["75\"", "85\"", "98\""],
     "description": "Weather-resistant 4K QLED, built for outdoor viewing.",
