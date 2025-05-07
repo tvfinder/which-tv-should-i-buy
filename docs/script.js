@@ -50,18 +50,24 @@ document.getElementById('tv-quiz').addEventListener('submit', function(e) {
     });
 });
 
-// Feedback Popup Hover & Copy
+// Feedback Popup Toggle & Copy — mobile and desktop friendly
 const feedbackButton = document.querySelector('.feedback-button');
 const feedbackPopup = document.querySelector('.feedback-popup');
 
-feedbackButton.addEventListener('mouseenter', () => {
-  feedbackPopup.style.display = 'block';
+// Toggle popup on button click
+feedbackButton.addEventListener('click', (e) => {
+  e.stopPropagation(); // prevent window click from immediately closing it
+  feedbackPopup.style.display = feedbackPopup.style.display === 'block' ? 'none' : 'block';
 });
 
-document.querySelector('.feedback-link').addEventListener('mouseleave', () => {
-  feedbackPopup.style.display = 'none';
+// Close popup when clicking outside
+window.addEventListener('click', (e) => {
+  if (!feedbackPopup.contains(e.target) && !feedbackButton.contains(e.target)) {
+    feedbackPopup.style.display = 'none';
+  }
 });
 
+// Copy email to clipboard
 document.getElementById('copy-button').addEventListener('click', () => {
   const email = document.getElementById('feedback-email').innerText;
   navigator.clipboard.writeText(email).then(() => {
