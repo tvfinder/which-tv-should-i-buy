@@ -54,20 +54,18 @@ form input[type="checkbox"] {
 
 form button {
   display: block;
-  padding: 10px 16px;
+  width: 100%;
+  padding: 14px 16px;
   background: #0077cc;
   color: #fff;
   border: none;
   border-radius: 6px;
   cursor: pointer;
   margin-top: 20px;
+  font-size: 18px;
 }
 
 form button:hover {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  z-index: 1000;
   background: #005fa3;
 }
 
@@ -96,7 +94,7 @@ form button:hover {
 .feedback-popup {
   display: none;
   position: fixed;
-  top: 45px;
+  top: 55px;
   right: 0;
   background: #fff;
   border: 1px solid #ccc;
@@ -173,4 +171,19 @@ form button:hover {
 
 .tv-card a:hover {
   background: #005fa3;
+}
+
+/* Mobile Responsive Tweaks */
+@media (max-width: 600px) {
+  .feedback-link {
+    top: auto;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .feedback-popup {
+    top: auto;
+    bottom: 70px;
+    right: 10px;
+  }
 }
