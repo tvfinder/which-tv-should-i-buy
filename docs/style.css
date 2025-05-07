@@ -91,7 +91,13 @@ form button:hover {
   background-color: #005fa3;
 }
 
-/* Feedback Popup — now with fade-in animation */
+/* Feedback Popup — shown on hover over feedback-link */
+.feedback-link:hover .feedback-popup {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Base Feedback Popup State */
 .feedback-popup {
   opacity: 0;
   visibility: hidden;
@@ -107,11 +113,6 @@ form button:hover {
   min-width: 220px;
   z-index: 1001;
   transition: opacity 0.3s ease, visibility 0.3s ease;
-}
-
-.feedback-popup.show {
-  opacity: 1;
-  visibility: visible;
 }
 
 .feedback-popup span {
@@ -141,6 +142,32 @@ form button:hover {
   font-size: 10px;
   color: green;
   display: none;
+}
+
+/* Mobile Responsive Tweaks */
+@media (max-width: 600px) {
+  .feedback-link {
+    top: auto;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .feedback-popup {
+    top: auto;
+    bottom: 70px;
+    right: 10px;
+  }
+
+  /* Disable hover interaction on mobile and use 'show' class instead */
+  .feedback-link:hover .feedback-popup {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .feedback-popup.show {
+    opacity: 1;
+    visibility: visible;
+  }
 }
 
 /* Recommendation Section */
