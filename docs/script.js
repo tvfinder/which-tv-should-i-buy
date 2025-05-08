@@ -19,18 +19,27 @@ document.addEventListener('DOMContentLoaded', () => {
           return;
         }
 
-        let sizeRanges = [];
-        if (sizeChoice === 'small') sizeRanges = ['43"', '50"'];
-        if (sizeChoice === 'medium') sizeRanges = ['55"', '65"'];
-        if (sizeChoice === 'large') sizeRanges = ['65"', '75"'];
-        if (sizeChoice === 'xl') sizeRanges = ['75"', '85"', '98"'];
+       let sizeFilter = () => true; // default: matches everything if no size selected
 
-        const matches = data.filter(tv =>
-          tv.room.includes(room) &&
-          tv.use.includes(use) &&
-          selectedBudgets.includes(tv.budget) &&
-          tv.sizes.some(size => sizeRanges.includes(size))
-        );
+if (sizeChoice === 'small') {
+  sizeFilter = size => parseInt(size) < 43;
+}
+if (sizeChoice === 'medium') {
+  sizeFilter = size => parseInt(size) >= 43 && parseInt(size) <= 55;
+}
+if (sizeChoice === 'large') {
+  sizeFilter = size => parseInt(size) > 55 && parseInt(size) <= 75;
+}
+if (sizeChoice === 'xl') {
+  sizeFilter = size => parseInt(size) > 75;
+}
+
+const matches = data.filter(tv =>
+  tv.room.includes(room) &&
+  tv.use.includes(use) &&
+  selectedBudgets.includes(tv.budget) &&
+  tv.sizes.some(size => sizeFilter(size))
+);
 
         const recommendation = document.getElementById('recommendation');
 
