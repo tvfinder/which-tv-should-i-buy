@@ -241,5 +241,14 @@
     "sizes": ["32\""],
     "description": "Perfect for small rooms and bedrooms",
     "affiliateLink": "https://amzn.to/452i1Wt"
+  },
+  {
+    "name": "Roku Smart TV",
+    "room": ["living", "bedroom"],
+    "use": ["movies"],
+    "budget": "low",
+    "sizes": ["32\""],
+    "description": "Great value 720 TV with built-in Roku for easy streaming.",
+    "affiliateLink": "https://amzn.to/3Z9alOp"
   }
 ]
