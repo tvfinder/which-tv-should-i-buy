@@ -268,5 +268,14 @@
     "sizes": ["32\""],
     "description": "To not only watch but enjoy some art as well.",
     "affiliateLink": "https://amzn.to/3F8Pxjg"
+  },
+  {
+    "name": "LG evo C4 Series",
+    "room": ["bedroom", "living"],
+    "use": ["movies", "Gaming"],
+    "budget": "mid",
+    "sizes": ["43\"", "50\"", "55\""],
+    "description": "Elite picture and gaming quality.",
+    "affiliateLink": "https://amzn.to/3F7Q05j"
   }
 ]
