@@ -210,15 +210,13 @@ form button:hover {
 
 /* Mobile Responsive Tweaks */
 @media (max-width: 600px) {
-  .feedback-link {
-    top: auto;
-    bottom: 20px;
-    right: 20px;
+  .feedback-popup {
+    display: none;
   }
 
-  .feedback-popup {
-    top: auto;
-    bottom: 70px;
-    right: 10px;
+  .feedback-popup.show {
+    display: block;
+    opacity: 1;
+    visibility: visible;
   }
 }
