@@ -232,5 +232,14 @@
     "sizes": ["43\"", "50\"", "55\""],
     "description": "Great value 4K for easy streaming and sneaky value for gaming.",
     "affiliateLink": "https://amzn.to/3YwMA2H"
+  },
+  {
+    "name": "INSIGNIA F20 Series",
+    "room": ["living", "bedroom"],
+    "use": ["movies"],
+    "budget": "low",
+    "sizes": ["32\""],
+    "description": "Perfect for small rooms and bedrooms",
+    "affiliateLink": "https://amzn.to/452i1Wt"
   }
 ]
