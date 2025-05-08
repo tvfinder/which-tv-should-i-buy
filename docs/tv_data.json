@@ -108,10 +108,10 @@
     "affiliateLink": "https://amzn.to/3YZCIOX"
   },
   {
-    "name": "Samsung CU8000",
+    "name": "Samsung DU8000",
     "room": ["living", "bedroom"],
     "use": ["movies"],
-    "budget": "mid",
+    "budget": "low",
     "sizes": ["55\"", "65\"", "75\""],
     "description": "Crystal UHD picture with HDR and built-in Alexa.",
     "affiliateLink": "https://amzn.to/4k0UJVX"
