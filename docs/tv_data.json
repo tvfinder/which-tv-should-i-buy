@@ -174,7 +174,7 @@
     "name": "Hisense U8",
     "room": ["living", "bedroom"],
     "use": ["gaming","movies"],
-    "budget": "mid",
+    "budget": "high",
     "sizes": ["55\"", "65\"", "75\""],
     "description": "Ultra-bright ULED display with excellent contrast and Dolby Atmos.",
     "affiliateLink": "https://amzn.to/450ubzd"
