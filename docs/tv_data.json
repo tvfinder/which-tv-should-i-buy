@@ -189,15 +189,6 @@
     "affiliateLink": "https://amzn.to/434FmED"
   },
   {
-    "name": "Vizio MQX Series",
-    "room": ["living", "bedroom"],
-    "use": ["gaming","movies"],
-    "budget": "mid",
-    "sizes": ["55\"", "65\"", "75\""],
-    "description": "Great gaming and HDR experience without breaking the bank.",
-    "affiliateLink": "https://amzn.to/4k4AohV"
-  },
-  {
     "name": "Samsung TU7000",
     "room": ["living", "bedroom"],
     "use": ["gaming","movies"],
