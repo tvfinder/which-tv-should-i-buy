@@ -220,7 +220,7 @@
     "room": ["living", "bedroom"],
     "use": ["gaming","movies", "sports"],
     "budget": "low",
-    "sizes": ["43\"", "50\"", "55\""],
+    "sizes": ["50\"", "55\""],
     "description": "Solid budget-friendly TV with decent motion handling.",
     "affiliateLink": "https://amzn.to/4jMBhvO"
   },
