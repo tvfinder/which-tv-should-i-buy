@@ -277,5 +277,14 @@
     "sizes": ["43\"", "50\"", "55\""],
     "description": "Elite picture and gaming quality.",
     "affiliateLink": "https://amzn.to/3F7Q05j"
+  },
+  {
+    "name": "Sony A90K Series",
+    "room": ["bedroom", "living"],
+    "use": ["movies", "Gaming"],
+    "budget": "high",
+    "sizes": ["43\"", "50\"", "55\""],
+    "description": "Amazing picture and gaming quality, with Google TV.",
+    "affiliateLink": "https://amzn.to/3YA0WPM"
   }
 ]
