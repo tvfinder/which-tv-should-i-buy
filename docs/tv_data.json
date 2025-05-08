@@ -259,5 +259,14 @@
     "sizes": ["32\""],
     "description": "Great value 720 TV, Alexa compatibility and Google Assistant.",
     "affiliateLink": "https://amzn.to/3Z9alOp"
+  },
+  {
+    "name": "SAMSUNG Frame LS03C Series",
+    "room": ["bedroom"],
+    "use": ["movies"],
+    "budget": "mid",
+    "sizes": ["32\""],
+    "description": "To not only watch but enjoy some art as well.",
+    "affiliateLink": "https://amzn.to/3F8Pxjg"
   }
 ]
