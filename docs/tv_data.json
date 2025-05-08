@@ -227,10 +227,10 @@
   {
     "name": "SAMSUNG DU7200 Series",
     "room": ["living", "bedroom"],
-    "use": ["movies"],
+    "use": ["movies", "gaming"],
     "budget": "low",
     "sizes": ["43\"", "50\"", "55\""],
-    "description": "Great value 4K TV with built-in Roku for easy streaming.",
+    "description": "Great value 4K for easy streaming and sneaky value for gaming.",
     "affiliateLink": "https://amzn.to/3YwMA2H"
   }
 ]
