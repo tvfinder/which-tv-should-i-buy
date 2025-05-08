@@ -250,5 +250,14 @@
     "sizes": ["32\""],
     "description": "Great value 720 TV with built-in Roku for easy streaming.",
     "affiliateLink": "https://amzn.to/3Z9alOp"
+  },
+  {
+    "name": "Hisense A4 Series",
+    "room": ["living", "bedroom"],
+    "use": ["movies"],
+    "budget": "low",
+    "sizes": ["32\""],
+    "description": "Great value 720 TV, Alexa compatibility and Google Assistant.",
+    "affiliateLink": "https://amzn.to/3Z9alOp"
   }
 ]
