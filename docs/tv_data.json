@@ -273,7 +273,7 @@
     "name": "LG evo C4 Series",
     "room": ["bedroom", "living"],
     "use": ["movies", "Gaming"],
-    "budget": "mid",
+    "budget": "high",
     "sizes": ["43\"", "50\"", "55\""],
     "description": "Elite picture and gaming quality.",
     "affiliateLink": "https://amzn.to/3F7Q05j"
